@@ -1,0 +1,452 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		2C771F2D1FBEBC2C00C15BFB /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F2C1FBEBC2C00C15BFB /* AppDelegate.m */; };
+		2C771F301FBEBC2C00C15BFB /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F2F1FBEBC2C00C15BFB /* ViewController.m */; };
+		2C771F331FBEBC2C00C15BFB /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F311FBEBC2C00C15BFB /* Main.storyboard */; };
+		2C771F351FBEBC2C00C15BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F341FBEBC2C00C15BFB /* Assets.xcassets */; };
+		2C771F381FBEBC2C00C15BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F361FBEBC2C00C15BFB /* LaunchScreen.storyboard */; };
+		2C771F3B1FBEBC2C00C15BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F3A1FBEBC2C00C15BFB /* main.m */; };
+		2C771F4A1FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F431FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m */; };
+		2C771F4B1FBEBCEC00C15BFB /* MiguDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F451FBEBCEC00C15BFB /* MiguDownloadItem.m */; };
+		2C771F4C1FBEBCEC00C15BFB /* MiguFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F471FBEBCEC00C15BFB /* MiguFileManager.m */; };
+		2C771F4D1FBEBCEC00C15BFB /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F491FBEBCEC00C15BFB /* NSDataAdditions.m */; };
+		2C771F501FBEBE5300C15BFB /* MiguHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F4F1FBEBE5300C15BFB /* MiguHttpConfig.m */; };
+		2C771F541FBEC18600C15BFB /* downloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F521FBEC18600C15BFB /* downloadCell.m */; };
+		2C771F551FBEC18600C15BFB /* downloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F531FBEC18600C15BFB /* downloadCell.xib */; };
+		6E35481AEA8BCD0BA146304E /* Pods_DownloadManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086CDC76E7D7DE7546CDB882 /* Pods_DownloadManager.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		086CDC76E7D7DE7546CDB882 /* Pods_DownloadManager.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DownloadManager.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C771F281FBEBC2C00C15BFB /* DownloadManager.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DownloadManager.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2C771F2B1FBEBC2C00C15BFB /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2C771F2C1FBEBC2C00C15BFB /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2C771F2E1FBEBC2C00C15BFB /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2C771F2F1FBEBC2C00C15BFB /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2C771F321FBEBC2C00C15BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2C771F341FBEBC2C00C15BFB /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2C771F371FBEBC2C00C15BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2C771F391FBEBC2C00C15BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2C771F3A1FBEBC2C00C15BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		2C771F421FBEBCEC00C15BFB /* MiguDowmloadBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguDowmloadBaseManager.h; sourceTree = "<group>"; };
+		2C771F431FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguDowmloadBaseManager.m; sourceTree = "<group>"; };
+		2C771F441FBEBCEC00C15BFB /* MiguDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguDownloadItem.h; sourceTree = "<group>"; };
+		2C771F451FBEBCEC00C15BFB /* MiguDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguDownloadItem.m; sourceTree = "<group>"; };
+		2C771F461FBEBCEC00C15BFB /* MiguFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguFileManager.h; sourceTree = "<group>"; };
+		2C771F471FBEBCEC00C15BFB /* MiguFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguFileManager.m; sourceTree = "<group>"; };
+		2C771F481FBEBCEC00C15BFB /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		2C771F491FBEBCEC00C15BFB /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
+		2C771F4E1FBEBE5300C15BFB /* MiguHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguHttpConfig.h; sourceTree = "<group>"; };
+		2C771F4F1FBEBE5300C15BFB /* MiguHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguHttpConfig.m; sourceTree = "<group>"; };
+		2C771F511FBEC18600C15BFB /* downloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = downloadCell.h; sourceTree = "<group>"; };
+		2C771F521FBEC18600C15BFB /* downloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = downloadCell.m; sourceTree = "<group>"; };
+		2C771F531FBEC18600C15BFB /* downloadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = downloadCell.xib; sourceTree = "<group>"; };
+		BEB347E02627E7446A1888AE /* Pods-DownloadManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager/Pods-DownloadManager.release.xcconfig"; sourceTree = "<group>"; };
+		DEEDD32F3412EF5060E10CA5 /* Pods-DownloadManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager/Pods-DownloadManager.debug.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		2C771F251FBEBC2C00C15BFB /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6E35481AEA8BCD0BA146304E /* Pods_DownloadManager.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		2C771F1F1FBEBC2C00C15BFB = {
+			isa = PBXGroup;
+			children = (
+				2C771F2A1FBEBC2C00C15BFB /* DownloadManager */,
+				2C771F291FBEBC2C00C15BFB /* Products */,
+				70DFDD1FF0210C69E47F2B90 /* Pods */,
+				6701A6D60325CEC170F65834 /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		2C771F291FBEBC2C00C15BFB /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				2C771F281FBEBC2C00C15BFB /* DownloadManager.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		2C771F2A1FBEBC2C00C15BFB /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				2C771F411FBEBCEC00C15BFB /* DownloadManager */,
+				2C771F2B1FBEBC2C00C15BFB /* AppDelegate.h */,
+				2C771F2C1FBEBC2C00C15BFB /* AppDelegate.m */,
+				2C771F2E1FBEBC2C00C15BFB /* ViewController.h */,
+				2C771F2F1FBEBC2C00C15BFB /* ViewController.m */,
+				2C771F511FBEC18600C15BFB /* downloadCell.h */,
+				2C771F521FBEC18600C15BFB /* downloadCell.m */,
+				2C771F531FBEC18600C15BFB /* downloadCell.xib */,
+				2C771F311FBEBC2C00C15BFB /* Main.storyboard */,
+				2C771F341FBEBC2C00C15BFB /* Assets.xcassets */,
+				2C771F361FBEBC2C00C15BFB /* LaunchScreen.storyboard */,
+				2C771F391FBEBC2C00C15BFB /* Info.plist */,
+				2C771F3A1FBEBC2C00C15BFB /* main.m */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		2C771F411FBEBCEC00C15BFB /* DownloadManager */ = {
+			isa = PBXGroup;
+			children = (
+				2C771F4E1FBEBE5300C15BFB /* MiguHttpConfig.h */,
+				2C771F4F1FBEBE5300C15BFB /* MiguHttpConfig.m */,
+				2C771F421FBEBCEC00C15BFB /* MiguDowmloadBaseManager.h */,
+				2C771F431FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m */,
+				2C771F441FBEBCEC00C15BFB /* MiguDownloadItem.h */,
+				2C771F451FBEBCEC00C15BFB /* MiguDownloadItem.m */,
+				2C771F461FBEBCEC00C15BFB /* MiguFileManager.h */,
+				2C771F471FBEBCEC00C15BFB /* MiguFileManager.m */,
+				2C771F481FBEBCEC00C15BFB /* NSDataAdditions.h */,
+				2C771F491FBEBCEC00C15BFB /* NSDataAdditions.m */,
+			);
+			path = DownloadManager;
+			sourceTree = "<group>";
+		};
+		6701A6D60325CEC170F65834 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				086CDC76E7D7DE7546CDB882 /* Pods_DownloadManager.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		70DFDD1FF0210C69E47F2B90 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				DEEDD32F3412EF5060E10CA5 /* Pods-DownloadManager.debug.xcconfig */,
+				BEB347E02627E7446A1888AE /* Pods-DownloadManager.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		2C771F271FBEBC2C00C15BFB /* DownloadManager */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2C771F3E1FBEBC2C00C15BFB /* Build configuration list for PBXNativeTarget "DownloadManager" */;
+			buildPhases = (
+				3410ACCDA2BA8F1D731BEA88 /* [CP] Check Pods Manifest.lock */,
+				2C771F241FBEBC2C00C15BFB /* Sources */,
+				2C771F251FBEBC2C00C15BFB /* Frameworks */,
+				2C771F261FBEBC2C00C15BFB /* Resources */,
+				D1DB236179C318A45AA3CBF3 /* [CP] Embed Pods Frameworks */,
+				7E6C9C7D7A68154707D8F2EE /* [CP] Copy Pods Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DownloadManager;
+			productName = DownloadManager;
+			productReference = 2C771F281FBEBC2C00C15BFB /* DownloadManager.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		2C771F201FBEBC2C00C15BFB /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0900;
+				ORGANIZATIONNAME = "刘殿阁";
+				TargetAttributes = {
+					2C771F271FBEBC2C00C15BFB = {
+						CreatedOnToolsVersion = 9.0.1;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 2C771F231FBEBC2C00C15BFB /* Build configuration list for PBXProject "DownloadManager" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 2C771F1F1FBEBC2C00C15BFB;
+			productRefGroup = 2C771F291FBEBC2C00C15BFB /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2C771F271FBEBC2C00C15BFB /* DownloadManager */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		2C771F261FBEBC2C00C15BFB /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C771F381FBEBC2C00C15BFB /* LaunchScreen.storyboard in Resources */,
+				2C771F551FBEC18600C15BFB /* downloadCell.xib in Resources */,
+				2C771F351FBEBC2C00C15BFB /* Assets.xcassets in Resources */,
+				2C771F331FBEBC2C00C15BFB /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		3410ACCDA2BA8F1D731BEA88 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n";
+			showEnvVarsInLog = 0;
+		};
+		7E6C9C7D7A68154707D8F2EE /* [CP] Copy Pods Resources */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Copy Pods Resources";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadManager/Pods-DownloadManager-resources.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		D1DB236179C318A45AA3CBF3 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DownloadManager/Pods-DownloadManager-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		2C771F241FBEBC2C00C15BFB /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				2C771F4B1FBEBCEC00C15BFB /* MiguDownloadItem.m in Sources */,
+				2C771F4D1FBEBCEC00C15BFB /* NSDataAdditions.m in Sources */,
+				2C771F301FBEBC2C00C15BFB /* ViewController.m in Sources */,
+				2C771F501FBEBE5300C15BFB /* MiguHttpConfig.m in Sources */,
+				2C771F541FBEC18600C15BFB /* downloadCell.m in Sources */,
+				2C771F3B1FBEBC2C00C15BFB /* main.m in Sources */,
+				2C771F4C1FBEBCEC00C15BFB /* MiguFileManager.m in Sources */,
+				2C771F2D1FBEBC2C00C15BFB /* AppDelegate.m in Sources */,
+				2C771F4A1FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		2C771F311FBEBC2C00C15BFB /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C771F321FBEBC2C00C15BFB /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		2C771F361FBEBC2C00C15BFB /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				2C771F371FBEBC2C00C15BFB /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		2C771F3C1FBEBC2C00C15BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		2C771F3D1FBEBC2C00C15BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		2C771F3F1FBEBC2C00C15BFB /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = DEEDD32F3412EF5060E10CA5 /* Pods-DownloadManager.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.oct.DownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		2C771F401FBEBC2C00C15BFB /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = BEB347E02627E7446A1888AE /* Pods-DownloadManager.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = DownloadManager/Info.plist;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = com.my.oct.DownloadManager;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2C771F231FBEBC2C00C15BFB /* Build configuration list for PBXProject "DownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C771F3C1FBEBC2C00C15BFB /* Debug */,
+				2C771F3D1FBEBC2C00C15BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2C771F3E1FBEBC2C00C15BFB /* Build configuration list for PBXNativeTarget "DownloadManager" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				2C771F3F1FBEBC2C00C15BFB /* Debug */,
+				2C771F401FBEBC2C00C15BFB /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 2C771F201FBEBC2C00C15BFB /* Project object */;
+}
