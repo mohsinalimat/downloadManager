@@ -13,13 +13,13 @@
 		2C771F351FBEBC2C00C15BFB /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F341FBEBC2C00C15BFB /* Assets.xcassets */; };
 		2C771F381FBEBC2C00C15BFB /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F361FBEBC2C00C15BFB /* LaunchScreen.storyboard */; };
 		2C771F3B1FBEBC2C00C15BFB /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F3A1FBEBC2C00C15BFB /* main.m */; };
-		2C771F4A1FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F431FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m */; };
-		2C771F4B1FBEBCEC00C15BFB /* MiguDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F451FBEBCEC00C15BFB /* MiguDownloadItem.m */; };
-		2C771F4C1FBEBCEC00C15BFB /* MiguFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F471FBEBCEC00C15BFB /* MiguFileManager.m */; };
-		2C771F4D1FBEBCEC00C15BFB /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F491FBEBCEC00C15BFB /* NSDataAdditions.m */; };
-		2C771F501FBEBE5300C15BFB /* MiguHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F4F1FBEBE5300C15BFB /* MiguHttpConfig.m */; };
 		2C771F541FBEC18600C15BFB /* downloadCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F521FBEC18600C15BFB /* downloadCell.m */; };
 		2C771F551FBEC18600C15BFB /* downloadCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = 2C771F531FBEC18600C15BFB /* downloadCell.xib */; };
+		2C771F611FBED90F00C15BFB /* MiguDowmloadBaseManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F581FBED90F00C15BFB /* MiguDowmloadBaseManager.m */; };
+		2C771F621FBED90F00C15BFB /* MiguDownloadItem.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F5A1FBED90F00C15BFB /* MiguDownloadItem.m */; };
+		2C771F631FBED90F00C15BFB /* MiguFileManager.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F5C1FBED90F00C15BFB /* MiguFileManager.m */; };
+		2C771F641FBED90F00C15BFB /* MiguHttpConfig.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F5E1FBED90F00C15BFB /* MiguHttpConfig.m */; };
+		2C771F651FBED90F00C15BFB /* NSDataAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2C771F601FBED90F00C15BFB /* NSDataAdditions.m */; };
 		6E35481AEA8BCD0BA146304E /* Pods_DownloadManager.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 086CDC76E7D7DE7546CDB882 /* Pods_DownloadManager.framework */; };
 /* End PBXBuildFile section */
 
@@ -35,19 +35,19 @@
 		2C771F371FBEBC2C00C15BFB /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		2C771F391FBEBC2C00C15BFB /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		2C771F3A1FBEBC2C00C15BFB /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2C771F421FBEBCEC00C15BFB /* MiguDowmloadBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguDowmloadBaseManager.h; sourceTree = "<group>"; };
-		2C771F431FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguDowmloadBaseManager.m; sourceTree = "<group>"; };
-		2C771F441FBEBCEC00C15BFB /* MiguDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguDownloadItem.h; sourceTree = "<group>"; };
-		2C771F451FBEBCEC00C15BFB /* MiguDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguDownloadItem.m; sourceTree = "<group>"; };
-		2C771F461FBEBCEC00C15BFB /* MiguFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguFileManager.h; sourceTree = "<group>"; };
-		2C771F471FBEBCEC00C15BFB /* MiguFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguFileManager.m; sourceTree = "<group>"; };
-		2C771F481FBEBCEC00C15BFB /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
-		2C771F491FBEBCEC00C15BFB /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
-		2C771F4E1FBEBE5300C15BFB /* MiguHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguHttpConfig.h; sourceTree = "<group>"; };
-		2C771F4F1FBEBE5300C15BFB /* MiguHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguHttpConfig.m; sourceTree = "<group>"; };
 		2C771F511FBEC18600C15BFB /* downloadCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = downloadCell.h; sourceTree = "<group>"; };
 		2C771F521FBEC18600C15BFB /* downloadCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = downloadCell.m; sourceTree = "<group>"; };
 		2C771F531FBEC18600C15BFB /* downloadCell.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = downloadCell.xib; sourceTree = "<group>"; };
+		2C771F571FBED90F00C15BFB /* MiguDowmloadBaseManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguDowmloadBaseManager.h; sourceTree = "<group>"; };
+		2C771F581FBED90F00C15BFB /* MiguDowmloadBaseManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguDowmloadBaseManager.m; sourceTree = "<group>"; };
+		2C771F591FBED90F00C15BFB /* MiguDownloadItem.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguDownloadItem.h; sourceTree = "<group>"; };
+		2C771F5A1FBED90F00C15BFB /* MiguDownloadItem.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguDownloadItem.m; sourceTree = "<group>"; };
+		2C771F5B1FBED90F00C15BFB /* MiguFileManager.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguFileManager.h; sourceTree = "<group>"; };
+		2C771F5C1FBED90F00C15BFB /* MiguFileManager.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguFileManager.m; sourceTree = "<group>"; };
+		2C771F5D1FBED90F00C15BFB /* MiguHttpConfig.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = MiguHttpConfig.h; sourceTree = "<group>"; };
+		2C771F5E1FBED90F00C15BFB /* MiguHttpConfig.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = MiguHttpConfig.m; sourceTree = "<group>"; };
+		2C771F5F1FBED90F00C15BFB /* NSDataAdditions.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = NSDataAdditions.h; sourceTree = "<group>"; };
+		2C771F601FBED90F00C15BFB /* NSDataAdditions.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = NSDataAdditions.m; sourceTree = "<group>"; };
 		BEB347E02627E7446A1888AE /* Pods-DownloadManager.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager.release.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager/Pods-DownloadManager.release.xcconfig"; sourceTree = "<group>"; };
 		DEEDD32F3412EF5060E10CA5 /* Pods-DownloadManager.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DownloadManager.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DownloadManager/Pods-DownloadManager.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -67,6 +67,7 @@
 		2C771F1F1FBEBC2C00C15BFB = {
 			isa = PBXGroup;
 			children = (
+				2C771F561FBED90F00C15BFB /* DownloadManagers */,
 				2C771F2A1FBEBC2C00C15BFB /* DownloadManager */,
 				2C771F291FBEBC2C00C15BFB /* Products */,
 				70DFDD1FF0210C69E47F2B90 /* Pods */,
@@ -85,7 +86,6 @@
 		2C771F2A1FBEBC2C00C15BFB /* DownloadManager */ = {
 			isa = PBXGroup;
 			children = (
-				2C771F411FBEBCEC00C15BFB /* DownloadManager */,
 				2C771F2B1FBEBC2C00C15BFB /* AppDelegate.h */,
 				2C771F2C1FBEBC2C00C15BFB /* AppDelegate.m */,
 				2C771F2E1FBEBC2C00C15BFB /* ViewController.h */,
@@ -102,21 +102,21 @@
 			path = DownloadManager;
 			sourceTree = "<group>";
 		};
-		2C771F411FBEBCEC00C15BFB /* DownloadManager */ = {
+		2C771F561FBED90F00C15BFB /* DownloadManagers */ = {
 			isa = PBXGroup;
 			children = (
-				2C771F4E1FBEBE5300C15BFB /* MiguHttpConfig.h */,
-				2C771F4F1FBEBE5300C15BFB /* MiguHttpConfig.m */,
-				2C771F421FBEBCEC00C15BFB /* MiguDowmloadBaseManager.h */,
-				2C771F431FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m */,
-				2C771F441FBEBCEC00C15BFB /* MiguDownloadItem.h */,
-				2C771F451FBEBCEC00C15BFB /* MiguDownloadItem.m */,
-				2C771F461FBEBCEC00C15BFB /* MiguFileManager.h */,
-				2C771F471FBEBCEC00C15BFB /* MiguFileManager.m */,
-				2C771F481FBEBCEC00C15BFB /* NSDataAdditions.h */,
-				2C771F491FBEBCEC00C15BFB /* NSDataAdditions.m */,
+				2C771F571FBED90F00C15BFB /* MiguDowmloadBaseManager.h */,
+				2C771F581FBED90F00C15BFB /* MiguDowmloadBaseManager.m */,
+				2C771F591FBED90F00C15BFB /* MiguDownloadItem.h */,
+				2C771F5A1FBED90F00C15BFB /* MiguDownloadItem.m */,
+				2C771F5B1FBED90F00C15BFB /* MiguFileManager.h */,
+				2C771F5C1FBED90F00C15BFB /* MiguFileManager.m */,
+				2C771F5D1FBED90F00C15BFB /* MiguHttpConfig.h */,
+				2C771F5E1FBED90F00C15BFB /* MiguHttpConfig.m */,
+				2C771F5F1FBED90F00C15BFB /* NSDataAdditions.h */,
+				2C771F601FBED90F00C15BFB /* NSDataAdditions.m */,
 			);
-			path = DownloadManager;
+			path = DownloadManagers;
 			sourceTree = "<group>";
 		};
 		6701A6D60325CEC170F65834 /* Frameworks */ = {
@@ -259,15 +259,15 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2C771F4B1FBEBCEC00C15BFB /* MiguDownloadItem.m in Sources */,
-				2C771F4D1FBEBCEC00C15BFB /* NSDataAdditions.m in Sources */,
+				2C771F621FBED90F00C15BFB /* MiguDownloadItem.m in Sources */,
 				2C771F301FBEBC2C00C15BFB /* ViewController.m in Sources */,
-				2C771F501FBEBE5300C15BFB /* MiguHttpConfig.m in Sources */,
+				2C771F631FBED90F00C15BFB /* MiguFileManager.m in Sources */,
+				2C771F651FBED90F00C15BFB /* NSDataAdditions.m in Sources */,
+				2C771F641FBED90F00C15BFB /* MiguHttpConfig.m in Sources */,
 				2C771F541FBEC18600C15BFB /* downloadCell.m in Sources */,
+				2C771F611FBED90F00C15BFB /* MiguDowmloadBaseManager.m in Sources */,
 				2C771F3B1FBEBC2C00C15BFB /* main.m in Sources */,
-				2C771F4C1FBEBCEC00C15BFB /* MiguFileManager.m in Sources */,
 				2C771F2D1FBEBC2C00C15BFB /* AppDelegate.m in Sources */,
-				2C771F4A1FBEBCEC00C15BFB /* MiguDowmloadBaseManager.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

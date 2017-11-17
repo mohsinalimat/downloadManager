@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   s.author             = { "diange Liu" => "shaoyeliudiange@163.com" }
   s.platform     = :ios, "8.0"
   s.source       = { :git => "https://github.com/liudiange/downloadManager.git", :tag => "v0.0.1" }
-  s.source_files  = "DownloadManager", "DownloadManager/**/*.{h,m}"
+  s.source_files  = 'DownloadManages/*'
   s.framework  = "UIKit"
   s.dependency "AFNetworking", "~> 3.1.0"
   
